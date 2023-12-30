@@ -1,0 +1,50 @@
+/* styles.module.css */
+.container {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; /* Adjusted to column direction */
+  }
+  
+
+  .title {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; /* Added width to take full width */
+  }
+
+  .section-ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .section-li {
+    margin-bottom: 10px;
+    color: #555;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+.box {
+  flex: 1; /* Equal width distribution */
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin-right:0px; /* Optional margin between boxes */
+  margin-left: 100px;
+}
